@@ -71,3 +71,28 @@
   grid-row: 3/span 2;
   grid-column: 4 /span 3;
 }
+
+.i {
+  background: orchid;
+}
+
+.ga1 {
+  grid-area: top;
+}
+
+.ga2 {
+  grid-area: main;
+}
+
+.ga3 {
+  grid-area: side;
+}
+
+.template2 {
+  display: grid;
+  max-width: 1000px;
+  grid-template-rows: 120px 500px;
+  grid-template-areas: "top top top top top top"
+  "main main main main side side";
+  grid-gap: 10px;
+}
