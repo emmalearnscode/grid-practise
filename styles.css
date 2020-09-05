@@ -96,3 +96,40 @@
   "main main main main side side";
   grid-gap: 10px;
 }
+
+.templateMinMax {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  /* grid-template-rows: repeat(2, 100px); */
+}
+
+
+.el1 {
+  background: purple;
+  
+  grid-row: span 2;
+}
+
+.el2 {
+  background: red;
+  /* grid-column: 4 / -1; */
+  
+}
+
+.el3 {
+  background: green;
+  /* grid-column: 4 / -1; */
+
+}
+
+.templateMinMax2 {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* grid-template-rows: repeat(2, 100px); */
+}
+
+.a {
+  background: royalblue;
+  height: 340px;
+}
